@@ -10,19 +10,12 @@ export default function Home() {
     <NavBar/>
   
     <main>
-   
  <VStack>
-<Box backgroundColor={"gray"} width={"100%"} height={'800px'} color='white' p={4}>
-<Flex> 
+{/* <Box backgroundColor={"gray"} width={"100%"} height={'800px'} color='white' p={4}>  */}
 
-<SideBar/>
+
 <ChatScreen/>
-
-</Flex>
-
-
-
-  </Box>  
+  {/* </Box>   */}
   </VStack> 
 
   
