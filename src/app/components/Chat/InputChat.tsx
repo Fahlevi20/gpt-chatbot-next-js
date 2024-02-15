@@ -6,7 +6,7 @@ export default function InputChat(){
             <Input placeholder="write anything!" color={'white'}>
 
             </Input>
-            <Button>
+            <Button colorScheme='gray'>
                 Send
             </Button>
 
