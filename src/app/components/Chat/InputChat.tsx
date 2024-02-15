@@ -6,6 +6,9 @@ export default function InputChat(){
             <Input placeholder="write anything!" color={'white'}>
 
             </Input>
+            <Button>
+                Send
+            </Button>
 
         </Flex>
     )
