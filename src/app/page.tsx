@@ -12,21 +12,9 @@ export default function Home() {
   
     <main>
       <Box backgroundColor={'darkgray'} height={612}>
- {/* <VStack > */}
-  
-{/* <Box backgroundColor={"gray"} width={"100%"} height={'800px'} color='white' p={4}>  */}
-
-
 <ChatScreen/>
-
-
-  {/* </Box>   */}
-  {/* </VStack>  */}
   </Box>
   <InputChat/>
-
-
-  
 
     </main>
 
