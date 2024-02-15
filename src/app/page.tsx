@@ -11,7 +11,7 @@ export default function Home() {
     <NavBar/>
   
     <main>
-      <Box backgroundColor={'darkgray'} height={612}>
+      <Box backgroundColor={'darkgray'} height={564}>
 <ChatScreen/>
   </Box>
   <InputChat/>
