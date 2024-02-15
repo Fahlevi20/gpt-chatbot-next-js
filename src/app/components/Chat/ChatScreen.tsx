@@ -1,4 +1,5 @@
 import { Box, DarkMode, Flex, HStack, Text } from "@chakra-ui/react";
+import InputChat from "./InputChat";
 
 export default function ChatScreen() {
     return(
@@ -15,38 +16,6 @@ export default function ChatScreen() {
                 <Text>Hello</Text>
             </Flex>
             </Flex>
-        
-        
-        
-
-    /* //     <Box backgroundColor={"black"} width='100%' height={800} p={100}>
-    //         this is chatscreen
-
-    //         <Box p={5} backgroundColor={"green"} 
-    //         width={"fit-content"} 
-    //         border='2px' borderColor='gray.200' 
-    //         boxShadow={"xs"}
-    //         rounded="lg"
-    //         // borderColor="white.200" 
-    //         // borderRadius={2}
-    //         >
-    //             Hi
-    //         </Box>
-    //         <Box  p={5} backgroundColor={"darkgreen"} 
-    //         width={"fit-content"} 
-    //         border='2px' borderColor='gray.200' 
-    //         boxShadow={"xs"}
-    //         rounded="lg"
-    //         alignSelf={'flex-end'}
-    //         >
-    //             Hello Bro
-                
-    //         </Box>
-    //  <HStack alignSelf={'flex-end'}>
-    //         <text>
-    //             Hello
-    //         </text>
-    //  </HStack>
-    //     </Box> */
-    )   
+            
+    )
 }
