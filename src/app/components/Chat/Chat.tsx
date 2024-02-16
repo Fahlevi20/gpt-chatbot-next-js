@@ -4,7 +4,7 @@ import InputChat from "./InputChat";
 export  default function Chat() {
     return (
         <Box>
-        <Flex direction={"column"} backgroundColor={'darkgray'} height={650}>
+        <Flex direction={"column"} backgroundColor={'darkgray'} height={564}>
             <Flex backgroundColor={'green'} 
             color={'lightgray'} 
             width={'fit-content'} 
