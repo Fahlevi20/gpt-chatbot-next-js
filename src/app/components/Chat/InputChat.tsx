@@ -8,14 +8,14 @@ const[output, setOutput] = useState("");
 
 const handleSubmit = async (e) => {
     e.preventDeault();
-}
 
 const response = await axios.post('http://127.0.0.1:5000/chat_gpt', {
-    "User":"user",
-    "message":input,
+        "User":"user",
+        "message":input,
+    };
+    setOutput(response);
 }
-setOutput(Response)
-)
+
 
 export default function InputChat(){
     return (
