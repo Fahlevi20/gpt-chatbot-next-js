@@ -1,5 +1,9 @@
 import { Box, Button, DarkMode, Flex, HStack, Input, Text } from "@chakra-ui/react";
 import InputChat from "./InputChat";
+import { useState } from "react";
+
+const [input,setInput] = useState("");
+const [output,setOutput] = useState("");
 
 export  default function Chat() {
     return (
