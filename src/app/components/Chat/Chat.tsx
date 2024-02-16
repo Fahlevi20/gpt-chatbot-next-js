@@ -26,9 +26,13 @@ export  default function Chat() {
 
         </Flex>
         <Flex backgroundColor={'darkgreen'} p={6}>
-            <Input placeholder="writeanyting" color={'white'}/>
+            <Input placeholder="write anything!" color={'white'}/>
+            <Button colorScheme="gray">
+            Send
+        </Button>
         
         </Flex>
+       
         
         </Box>
 
