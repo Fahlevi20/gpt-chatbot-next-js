@@ -1,5 +1,6 @@
 'use client'
-import ChatScreen from "./components/Chat/ChatScreen";
+import Chat from "./components/Chat/Chat";
+import ChatScreen from "./components/Chat/Chat";
 import InputChat from "./components/Chat/InputChat";
 import NavBar from "./components/Navbar/Navbar";
 import SideBar from "./components/Sidebar/Sidebar";
@@ -11,10 +12,10 @@ export default function Home() {
     <NavBar/>
   
     <main>
-      <Box backgroundColor={'darkgray'} height={564}>
-<ChatScreen/>
-  </Box>
-  <InputChat/>
+      {/* <Box backgroundColor={'darkgray'} height={564}>
+  </Box> */}
+  {/* <InputChat/> */}
+  <Chat/>
 
     </main>
 
